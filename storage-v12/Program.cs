@@ -57,7 +57,7 @@ namespace Storage.Blob.Dotnet.Quickstart.V12
         {
             string tempDirectory = null;
             string sourcePath = null;
-            Int32 maxTransactions = 10000;
+            Int32 maxTransactions = 1000;
             BlobContainerClient blobContainerClient = null;
 
             // Retrieve the connection string for use with the application. The storage connection string is stored
