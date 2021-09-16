@@ -10,11 +10,11 @@ namespace event_hub_consumer
 {
     class Program
     {
-        private const string ehubNamespaceConnectionString = "Endpoint=sb://evhubtransactions.servicebus.windows.net/;SharedAccessKeyName=RootManageSharedAccessKey;SharedAccessKey=Jh4cCZjKQriC0Sv3tx+EsedD+PZmgokENizkjO3QXzI=";
+        private const string ehubNamespaceConnectionString = "";
 
         private const string eventHubName = "eventransaction";
 
-        private const string blobStorageConnectionString = "DefaultEndpointsProtocol=https;AccountName=blockblobbatch;AccountKey=0A/NKYALAOOAgWSNHCwkS2sV581RH7v9o+V0evu6Xmy5c/MS9m7/+h3vw+noGQbESpm3A7n802FL69uX5ZBDow==;EndpointSuffix=core.windows.net";
+        private const string blobStorageConnectionString = "";
 
         private const string blobContainerName = "evhubcache";
 
